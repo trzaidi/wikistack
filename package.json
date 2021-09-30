@@ -1,14 +1,23 @@
 {
   "name": "wikistack",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./path/to/your/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "morgan": "^1.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trzaidi/wikistack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trzaidi/wikistack/issues"
+  },
+  "homepage": "https://github.com/trzaidi/wikistack#readme",
+  "description": ""
 }
